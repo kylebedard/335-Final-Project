@@ -11,7 +11,7 @@ const { response } = require('express');
 
 let arr = hn.getTopStories();
 
-const userName = "matthewladdy";
+const userName = "user";
 const password = "CMSC335";
 const databaseAndCollection = {db: "CMSC335_DB", collection:"HackerNewsData"};
 const uri = `mongodb+srv://${userName}:${password}@cluster0.qbkiy4o.mongodb.net/test`;;
